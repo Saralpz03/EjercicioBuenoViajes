@@ -19,7 +19,6 @@ h1 {
 
 .nav {
     width: 100%;
-    position: fixed;
     margin-top: 0px;
     align-items: center;
     background-color: rgb(57, 215, 255);
@@ -147,4 +146,9 @@ td {
 
 .banner {
     position: relative;
+}
+
+.banner img {
+    margin-top: 40px;
+    width: 100%;
 }
