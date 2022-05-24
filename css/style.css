@@ -49,12 +49,12 @@ ul li {
     font-size: 30px;
 }
 
-a {
+ul li a {
     text-decoration: none;
     color: black;
 }
 
-a:hover {
+ul li a:hover {
     color: black;
     background-color: white;
 }
@@ -64,7 +64,7 @@ a:hover {
 
 .contenido {
     margin-top: 50px;
-    background-color: rgb(228, 171, 65);
+    background-color: none;
     height: auto;
     width: 100%;
 }
@@ -154,4 +154,88 @@ td {
 .banner img {
     margin-top: 45px;
     width: 100%;
+}
+
+
+/* FOOTER */
+
+.footer_cont {
+    width: 100%;
+    height: 300px;
+    background-color: #161616;
+}
+
+.redes {
+    width: fit-content;
+    height: 70px;
+    margin-left: 650px;
+}
+
+.img_face,
+.img_twi,
+.img_yt,
+.img_gma {
+    margin-top: 50px;
+    margin-left: 30px;
+    float: left;
+    width: 30px;
+    height: 30px;
+}
+
+.img_face img,
+.img_twi img,
+.img_yt img,
+.img_gma img {
+    width: 30px;
+    height: 30px;
+}
+
+.copyr {
+    margin-top: 100px;
+    width: 100%;
+    height: 60px;
+    text-align: center;
+    text-align: center;
+    color: #B4B4B4;
+}
+
+.linea1 {
+    background-color: white;
+    height: 1px;
+    width: 600px;
+    margin-left: 60px;
+    margin-top: 60px;
+    position: absolute;
+}
+
+.linea2 {
+    background-color: white;
+    height: 1px;
+    width: 600px;
+    margin-left: 940px;
+    margin-top: -10px;
+    position: absolute;
+}
+
+.informacion {
+    width: 100%;
+    height: auto;
+    text-align: center;
+}
+
+.info_enlace,
+.polit_enlace,
+.separacion {
+    padding-left: 10px;
+    display: inline-block;
+    color: white;
+}
+
+.informacion a {
+    color: white;
+}
+
+header {
+    width: 500px;
+    height: 100px;
 }
